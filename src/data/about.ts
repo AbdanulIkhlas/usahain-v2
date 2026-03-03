@@ -34,41 +34,35 @@ export const aboutData = {
       "Kami adalah tim yang percaya bahwa setiap orang berhak mendapat kesempatan yang sama untuk memulai usaha.",
     members: [
       {
-        name: "Andi Pratama",
+        name: "Coming Soon",
         role: "Founder & CEO",
-        bio: "Berpengalaman 10+ tahun di ekosistem startup Indonesia. Passionate tentang pemberdayaan UMKM.",
+        bio: "-",
         avatar: "AP",
       },
       {
-        name: "Sari Dewi",
+        name: "Coming Soon",
         role: "Co-Founder & CPO",
-        bio: "Mantan product lead di fintech terkemuka. Fokus membangun produk yang berdampak sosial.",
+        bio: "-",
         avatar: "SD",
       },
       {
-        name: "Rizky Aditya",
+        name: "Coming Soon",
         role: "CTO",
-        bio: "Full-stack engineer dengan passion di scalable systems dan AI-driven solutions.",
+        bio: "-",
         avatar: "RA",
       },
       {
-        name: "Maya Kusuma",
+        name: "Coming Soon",
         role: "Head of Partnerships",
-        bio: "Ahli dalam membangun jaringan B2B dan supply chain untuk usaha mikro.",
+        bio: "-",
         avatar: "MK",
       },
       {
-        name: "Fajar Nugroho",
+        name: "Coming Soon",
         role: "Head of Growth",
-        bio: "Growth strategist dengan track record membangun komunitas 100K+ pengguna.",
+        bio: "-",
         avatar: "FN",
-      },
-      {
-        name: "Lina Hartono",
-        role: "Head of Design",
-        bio: "UI/UX designer yang percaya desain yang baik harus bisa diakses semua orang.",
-        avatar: "LH",
-      },
+      }
     ],
   },
 
