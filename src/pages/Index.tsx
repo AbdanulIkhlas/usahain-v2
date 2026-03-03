@@ -1,13 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Navbar } from "@/components/organisms/Navbar";
+import { HeroSection } from "@/components/organisms/HeroSection";
+import { ProblemSection } from "@/components/organisms/ProblemSection";
+import { ShiftSection } from "@/components/organisms/ShiftSection";
+import { HowItWorksSection } from "@/components/organisms/HowItWorksSection";
+import { ScorePreviewSection } from "@/components/organisms/ScorePreviewSection";
+import { SocialProofSection } from "@/components/organisms/SocialProofSection";
+import { PricingSection } from "@/components/organisms/PricingSection";
+import { FinalCTASection } from "@/components/organisms/FinalCTASection";
+import { Footer } from "@/components/organisms/Footer";
+import { brandConfig } from "@/config/brand.config";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <>
+      <head>
+        <title>{brandConfig.name} — {brandConfig.tagline}</title>
+        <meta name="description" content={brandConfig.description} />
+      </head>
+      <Navbar />
+      <main>
+        <HeroSection />
+        <ProblemSection />
+        <ShiftSection />
+        <HowItWorksSection />
+        <ScorePreviewSection />
+        <SocialProofSection />
+        <PricingSection />
+        <FinalCTASection />
+      </main>
+      <Footer />
+    </>
   );
 };
 
