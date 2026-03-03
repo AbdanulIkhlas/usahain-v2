@@ -1,0 +1,16 @@
+{
+  "primary": "17 24 39",
+  "primaryLight": "55 65 81",
+  "primaryForeground": "255 255 255",
+  "accent": "220 38 38",
+  "accentForeground": "255 255 255",
+  "success": "21 128 61",
+  "successLight": "22 163 74",
+  "background": "249 250 251",
+  "card": "255 255 255",
+  "muted": "243 244 246",
+  "textPrimary": "17 24 39",
+  "textSecondary": "107 114 128",
+  "border": "229 231 235",
+  "ring": "55 65 81"
+}
